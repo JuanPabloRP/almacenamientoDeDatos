@@ -15,7 +15,7 @@ namespace almacenamientoDeDatos
 
     public partial class frmXml : Form
     {
-        public static List<Persona> personas = new List<Persona>();
+        public List<Persona> personas = new List<Persona>();
 
         public frmXml()
         {

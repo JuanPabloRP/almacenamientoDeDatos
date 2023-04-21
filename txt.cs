@@ -14,7 +14,7 @@ namespace almacenamientoDeDatos
 {
     public partial class frmTxt : Form
     {
-        public static List<Persona> personas = new List<Persona>();
+        public List<Persona> personas = new List<Persona>();
         string rutaDatos;
         public frmTxt(string rutaArchivo)
         {

@@ -41,5 +41,13 @@ namespace almacenamientoDeDatos
             Hide();
             xml.Show();
         }
+
+        private void btnRtf_Click(object sender, EventArgs e)
+        {
+            frmRtf rtf = new frmRtf();
+
+            Hide();
+            rtf.Show();
+        }
     }
 }

@@ -79,6 +79,7 @@
             this.btnRtf.TabIndex = 3;
             this.btnRtf.Text = "RTF";
             this.btnRtf.UseVisualStyleBackColor = false;
+            this.btnRtf.Click += new System.EventHandler(this.btnRtf_Click);
             // 
             // btnXml
             // 
