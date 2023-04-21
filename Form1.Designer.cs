@@ -55,6 +55,7 @@
             this.btnTxt.TabIndex = 1;
             this.btnTxt.Text = "TXT";
             this.btnTxt.UseVisualStyleBackColor = false;
+            this.btnTxt.Click += new System.EventHandler(this.btnTxt_Click);
             // 
             // btnCsv
             // 

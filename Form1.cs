@@ -16,5 +16,14 @@ namespace almacenamientoDeDatos
         {
             InitializeComponent();
         }
+
+        private void btnTxt_Click(object sender, EventArgs e)
+        {
+            frmTxt txt = new frmTxt("personas.txt");
+
+            Hide();
+            txt.Show();
+
+        }
     }
 }
