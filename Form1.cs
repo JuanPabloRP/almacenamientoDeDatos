@@ -25,5 +25,21 @@ namespace almacenamientoDeDatos
             txt.Show();
 
         }
+
+        private void btnCsv_Click(object sender, EventArgs e)
+        {
+            frmCsv csv = new frmCsv();
+
+            Hide();
+            csv.Show();
+        }
+
+        private void btnXml_Click(object sender, EventArgs e)
+        {
+            frmXml xml = new frmXml();
+
+            Hide();
+            xml.Show();
+        }
     }
 }

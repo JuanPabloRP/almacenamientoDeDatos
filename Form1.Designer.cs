@@ -61,18 +61,19 @@
             // 
             this.btnCsv.BackColor = System.Drawing.Color.White;
             this.btnCsv.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCsv.Location = new System.Drawing.Point(85, 190);
+            this.btnCsv.Location = new System.Drawing.Point(84, 190);
             this.btnCsv.Name = "btnCsv";
             this.btnCsv.Size = new System.Drawing.Size(75, 23);
             this.btnCsv.TabIndex = 2;
             this.btnCsv.Text = "CSV";
             this.btnCsv.UseVisualStyleBackColor = false;
+            this.btnCsv.Click += new System.EventHandler(this.btnCsv_Click);
             // 
             // btnRtf
             // 
             this.btnRtf.BackColor = System.Drawing.Color.White;
             this.btnRtf.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRtf.Location = new System.Drawing.Point(244, 118);
+            this.btnRtf.Location = new System.Drawing.Point(244, 190);
             this.btnRtf.Name = "btnRtf";
             this.btnRtf.Size = new System.Drawing.Size(75, 23);
             this.btnRtf.TabIndex = 3;
@@ -83,12 +84,13 @@
             // 
             this.btnXml.BackColor = System.Drawing.Color.White;
             this.btnXml.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnXml.Location = new System.Drawing.Point(244, 190);
+            this.btnXml.Location = new System.Drawing.Point(244, 118);
             this.btnXml.Name = "btnXml";
             this.btnXml.Size = new System.Drawing.Size(75, 23);
             this.btnXml.TabIndex = 4;
             this.btnXml.Text = "XML";
             this.btnXml.UseVisualStyleBackColor = false;
+            this.btnXml.Click += new System.EventHandler(this.btnXml_Click);
             // 
             // frmInicial
             // 

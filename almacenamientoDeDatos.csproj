@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="csv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="csv.Designer.cs">
+      <DependentUpon>csv.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,15 @@
     <Compile Include="txt.Designer.cs">
       <DependentUpon>txt.cs</DependentUpon>
     </Compile>
+    <Compile Include="xml.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xml.Designer.cs">
+      <DependentUpon>xml.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="csv.resx">
+      <DependentUpon>csv.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,6 +91,9 @@
     </Compile>
     <EmbeddedResource Include="txt.resx">
       <DependentUpon>txt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xml.resx">
+      <DependentUpon>xml.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -96,6 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="utils\personas.txt" />
+    <Content Include="utils\XMLFile1.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

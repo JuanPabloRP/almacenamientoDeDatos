@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.lblTituloTxt = new System.Windows.Forms.Label();
-            this.imgAtras = new System.Windows.Forms.PictureBox();
             this.btnCrear = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -42,8 +41,9 @@
             this.lblNuevoNombre = new System.Windows.Forms.Label();
             this.lblEliminar = new System.Windows.Forms.Label();
             this.lblAgregar = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAtras)).BeginInit();
+            this.imgAtras = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersonas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAtras)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTituloTxt
@@ -55,17 +55,6 @@
             this.lblTituloTxt.Size = new System.Drawing.Size(341, 31);
             this.lblTituloTxt.TabIndex = 0;
             this.lblTituloTxt.Text = "CRUD con archivos planos";
-            // 
-            // imgAtras
-            // 
-            this.imgAtras.Image = global::almacenamientoDeDatos.Properties.Resources.icons8_atrás_96;
-            this.imgAtras.Location = new System.Drawing.Point(12, 27);
-            this.imgAtras.Name = "imgAtras";
-            this.imgAtras.Size = new System.Drawing.Size(46, 39);
-            this.imgAtras.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgAtras.TabIndex = 1;
-            this.imgAtras.TabStop = false;
-            this.imgAtras.Click += new System.EventHandler(this.imgAtras_Click);
             // 
             // btnCrear
             // 
@@ -169,6 +158,17 @@
             this.lblAgregar.TabIndex = 13;
             this.lblAgregar.Text = "Agregar nombre";
             // 
+            // imgAtras
+            // 
+            this.imgAtras.Image = global::almacenamientoDeDatos.Properties.Resources.icons8_atrás_96;
+            this.imgAtras.Location = new System.Drawing.Point(12, 27);
+            this.imgAtras.Name = "imgAtras";
+            this.imgAtras.Size = new System.Drawing.Size(46, 39);
+            this.imgAtras.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgAtras.TabIndex = 1;
+            this.imgAtras.TabStop = false;
+            this.imgAtras.Click += new System.EventHandler(this.imgAtras_Click);
+            // 
             // frmTxt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -191,8 +191,8 @@
             this.Name = "frmTxt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "txt";
-            ((System.ComponentModel.ISupportInitialize)(this.imgAtras)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersonas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAtras)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
