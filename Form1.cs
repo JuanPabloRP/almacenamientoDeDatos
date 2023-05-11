@@ -12,6 +12,12 @@ namespace almacenamientoDeDatos
 {
     public partial class frmInicial : Form
     {
+    
+        /// <summary>
+        ///  Juan Pablo Roldan Patiño
+        ///  2023
+        ///  Probando distintos metodos para guardar información tales como csv o archivos planos
+        /// </summary>
         public frmInicial()
         {
             InitializeComponent();
